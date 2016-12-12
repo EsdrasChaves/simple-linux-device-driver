@@ -3,7 +3,7 @@ Device Driver (módulo) que desliga o computador de maneira imediata ou programa
 
 Este trabalho foi realizado para a Disciplina de Sistemas Operacionais, onde o objetivo ter uma primeira experiência em programação no "Kernel Space". O módulo funciona em ambientes Linux.
 Para adicionar o módulo ao sistema você precisa:
-  <br>1- Na pasta onde se encontram os arquivos, fazer um make:
+  <br><br>1- Na pasta onde se encontram os arquivos, fazer um make:
     <code>$ make</code>
   <br>2- Inserir o módulo:
     <code>$ sudo insmod keyshut.ko</code>
