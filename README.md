@@ -1,20 +1,19 @@
 # simple-linux-device-driver
-Device Driver (módulo) que desliga o computador de maneira imediata ou programada mediante a uma combinação de teclas do teclado
+Device Driver (module) that turns off the computer immediately or scheduled by keyboard key combination.
 
-Este trabalho foi realizado para a Disciplina de Sistemas Operacionais, onde o objetivo ter uma primeira experiência em programação no "Kernel Space". O módulo funciona em ambientes Linux.
-Para adicionar o módulo ao sistema você precisa:
-  <br><br>1- Na pasta onde se encontram os arquivos, fazer um make:
+This is a Operational System course assignment, the goal was to provide a little experience in programming at "Kernel Space". The module works on Linux.
+Attach the module:
+  <br><br>1- Run make:
     <code>$ make</code>
-  <br>2- Inserir o módulo:
+  <br>2- Attach module:
     <code>$ sudo insmod keyshut.ko</code>
-  <br>3- Para remover:
+  <br>3- Removing:
     <code>$ sudo rmmod keyshut.ko</code>
-  <br>4- Você pode ver as mensagens que o módulo "printa" ao fazer:
+  <br>4- Check the last message of the module.:
     <code>$ dmesg | tail -1</code>
-     Para ver a última mensagem
      
-<br><br>Funcionamento:
-  Depois de inserido o módulo, você pode usa-lo para desligar o seu computador (shutdown) de duas maneiras: imediata e programada.
-  Para desligar de maneira imediata pressione as teclas SHIFT + C simultaneamente;
-  Para desligar de maneira programada pressione as teclas SHIFT + T simultaneamente e, logo após escolha o tempo no seguinte formato:
-    Ex: 2h15m12s, para desligar o computador em 2 horas, 15 minutos e 12 segundo, sendo que as horas e os minutos podem sem dispensados, mas não os segundos.
+<br><br>Running:
+  After attaching the module you can use it to shutdown your computer in the following ways: immediately or scheduled.
+  To immediately shutdown press SHIFT + C simultaneously;
+  To schelude press SHIFT + T simultaneously and choose a time in the following format:
+    Ex: 2h15m12s, to shutdown you computer in 2 hours, 15 minutes e 12 seconds. Just the seconds are mandatory.
