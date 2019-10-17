@@ -15,5 +15,5 @@ Attach the module:
 <br><br>Running:
   After attaching the module you can use it to shut down your computer in the following ways: immediately or scheduled.
   1. To immediately shut down press SHIFT + C simultaneously;
-  2. To schedudl press SHIFT + T simultaneously and choose a time in the following format:
+  2. To schedule press SHIFT + T simultaneously and choose a time in the following format:
     Ex: 2h15m12s, to shutdown your computer in 2 hours, 15 minutes e 12 seconds. Just the seconds are mandatory.
