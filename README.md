@@ -1,5 +1,5 @@
 # simple-linux-device-driver
-Device Driver (module) that turns off the computer immediately or scheduled by keyboard key combination.
+Device Driver (module) that turns off the computer immediately or at a scheduled time by keyboard key combination.
 
 This is an Operational System course assignment, the goal was to provide a little experience in programming at "Kernel Space". The module works on Linux.
 Attach the module:
